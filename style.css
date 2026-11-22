@@ -12,7 +12,7 @@ html,body{
 	/*font-size:14px;*/
 }
 body{
-	font-family: helvetica;
+	font-family: "utopia", helvetica;
 	background-color: #ddd;
 }
 table{
@@ -34,7 +34,7 @@ p{
 
 article{
 	background-color:#fff;
-	width: 80%;
+	width: 90%;
 	padding: 20px;
 	margin:20px;
 	padding-top:0px;
@@ -65,10 +65,11 @@ ul.navbar {
 	vertical-align: center;
 }
 .header{
+	font-family: 'Brush Script MT', cursive;
 	max-width: 20%;
 	float:left;
 	top:0;
-	margin: 20px;
+	margin: 10px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-top:0px;
@@ -88,18 +89,18 @@ a.navitem{
 	width: 100%;
 }
 
-.active{
+#active{
 	background-color:#14BA7D;
 	height: 100%;
 }
 
-li a.navitem:hover:not(.active){
+li a.navitem:hover{
 	background-color: #eee;
 }
 
-li a.navitem:hover{
+/*li a#active.navitem:hover{
 	background-color: #04AA6D;
-}
+}*/
 img{
 	float:right;
 	width:100%
@@ -107,4 +108,18 @@ img{
 .imagebox{
 	float:right;
 	width: 30%;
+}
+
+.logo{
+	height:50px;
+	width:300px;
+	float:left;
+	top:0;
+	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	display: block;
+	text-align: left;
 }
